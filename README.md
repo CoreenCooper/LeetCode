@@ -1,2 +1,3 @@
 # LeetCode
-Solutions to LeetCode Problems
+
+This repo is a running list of the LeetCode problems I've worked through. 
