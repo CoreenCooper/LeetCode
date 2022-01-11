@@ -1,0 +1,16 @@
+const twoSum = function(nums, target) {
+    const indicesMap = new Map();
+    const indices = [];
+    
+    for (let i = 0; i < nums.length; i++) {
+        const 
+        
+        if (indicesMap.has(target - nums[i])) {
+            indices[0] = indicesMap.get(target - nums[i]);
+            indices[1] = i;
+            
+            return indices;
+        }
+        indicesMap.set(nums[i], i);
+    }
+};
