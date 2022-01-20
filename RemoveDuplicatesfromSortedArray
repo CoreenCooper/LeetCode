@@ -1,0 +1,17 @@
+const removeDuplicates = function (nums) {
+  let l = 0;
+  let r = 1;
+
+  if (nums.length === 0) {
+    return 0;
+  } else {
+    while (r < nums.length) {
+      if (nums[l] !== nums[r]) {
+        l++;
+        nums[l] = nums[r];
+      }
+      r++;
+    }
+  }
+  return l + 1;
+};
