@@ -22,19 +22,19 @@ const strStr = function (haystack, needle) {
 
 
 /// For Loop ////
-const strStr = function (haystack, needle) {
-  let r = needle.length;
+// const strStr = function (haystack, needle) {
+//   let r = needle.length;
 
-  if (!needle) {
-    return 0;
-  } else {
-    for (let l = 0; l < haystack.length - needle.length + 1; l++) {
-      let substring = haystack.substring(l, r);
-      if (substring === needle) {
-        return l;
-      }
-      r++;
-    }
-  }
-  return -1;
-};
+//   if (!needle) {
+//     return 0;
+//   } else {
+//     for (let l = 0; l < haystack.length - needle.length + 1; l++) {
+//       let substring = haystack.substring(l, r);
+//       if (substring === needle) {
+//         return l;
+//       }
+//       r++;
+//     }
+//   }
+//   return -1;
+// };
