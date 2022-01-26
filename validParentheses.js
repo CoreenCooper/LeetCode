@@ -46,3 +46,6 @@ class Stack {
        return this.size; 
     }
 }
+
+
+// Stack: Last In First Out (LIFO): The last object into a stack is the first object to leave the stack, used by a stack
