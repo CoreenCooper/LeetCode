@@ -1,3 +1,5 @@
+// Given a roman numeral, convert it to an integer.
+
 const romanToInt = function(str) {
     const romanNumerals = {
         I : 1,
@@ -29,3 +31,5 @@ const romanToInt = function(str) {
     }
     return sum;
 };
+
+// 
